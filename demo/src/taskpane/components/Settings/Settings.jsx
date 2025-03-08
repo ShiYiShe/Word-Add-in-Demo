@@ -55,6 +55,7 @@ const Settings = () => {
         <div className="settings-template-box space" style={{fontSize: "12px"}} onClick={saveNewName}>新建模版</div>
       </div>
       <div className="settings">
+        <strong>{clickedName}</strong>
         <div className="label">字体</div>
         <input value={clickedSettings.fontFamily}
           onChange={(e) => setClickedSettings({

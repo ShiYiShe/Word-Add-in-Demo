@@ -41,9 +41,9 @@ input {
   margin-bottom: 10px;
 }
 
-.label:first-child {
+/* .label:first-child {
   margin-top: 0;
-}
+} */
 
 .save {
   margin-top: 20px;
