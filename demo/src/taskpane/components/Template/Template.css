@@ -1,0 +1,14 @@
+.templates-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.template-box {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

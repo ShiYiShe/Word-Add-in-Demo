@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid lightgray;
+  font-size: 18px;
+}
+
+.main-container div {
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+  padding-bottom: 5px;
+}

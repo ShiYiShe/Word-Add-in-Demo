@@ -1,0 +1,55 @@
+.settings-container {
+  display: flex;
+  padding: 20px;
+}
+
+.space {
+  margin-bottom: 10px;
+}
+
+.settings {
+  padding-left: 20px;
+}
+
+.settings-templates {
+  border-right: 1px solid lightgray;
+  padding-right: 20px;
+  width: 30%;
+}
+
+input {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  width: 100%;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.space:last-child {
+  margin-top: 10px;
+}
+
+.settings-template-box {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.label:first-child {
+  margin-top: 0;
+}
+
+.save {
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
